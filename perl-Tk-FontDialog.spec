@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_with	tests	# perform "make test" (requires working $DISPLAY)
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Tk
 %define		pnam	FontDialog
@@ -6,7 +10,8 @@ Summary(pl):	Modu³ Perla Tk::FontDialog - okienko wyboru fontu dla modu³u Perla 
 Name:		perl-Tk-FontDialog
 Version:	0.09
 Release:	1
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	525d146f2c11031fa6b028cb866c359e
@@ -29,6 +34,8 @@ Modu³ Tk::FontDialog jest implementacj± okienka wyboru fontu.
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
