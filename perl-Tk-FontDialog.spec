@@ -3,8 +3,8 @@
 %bcond_with	tests	# perform "make test" (requires working $DISPLAY)
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tk
-%define	pnam	FontDialog
+%define		pdir	Tk
+%define		pnam	FontDialog
 Summary:	Tk::FontDialog Perl module - font chooser for Perl/Tk
 Summary(pl):	Modu³ Perla Tk::FontDialog - okienko wyboru fontu dla modu³u Perla Tk
 Name:		perl-Tk-FontDialog
