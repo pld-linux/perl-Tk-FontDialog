@@ -4,12 +4,12 @@
 Summary:	Tk::FontDialog Perl module - font chooser for Perl/Tk
 Summary(pl):	Modu³ Perla Tk::FontDialog - okienko wyboru fontu dla modu³u Tk
 Name:		perl-Tk-FontDialog
-Version:	0.08
+Version:	0.09
 Release:	1
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	be764bc99f3a2f18ac4d95dfa8f734fd
+# Source0-md5:	525d146f2c11031fa6b028cb866c359e
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Tk >= 800
 BuildRequires:	rpm-perlprov >= 4.1-13
