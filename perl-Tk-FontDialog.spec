@@ -27,7 +27,7 @@ Modu³ Tk::FontDialog jest implementacj± okienka wyboru fontu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
