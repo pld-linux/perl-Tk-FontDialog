@@ -6,7 +6,7 @@
 %define		pdir	Tk
 %define		pnam	FontDialog
 Summary:	Tk::FontDialog Perl module - font chooser for Perl/Tk
-Summary(pl):	Modu≥ Perla Tk::FontDialog - okienko wyboru fontu dla modu≥u Perla Tk
+Summary(pl.UTF-8):   Modu≈Ç Perla Tk::FontDialog - okienko wyboru fontu dla modu≈Çu Perla Tk
 Name:		perl-Tk-FontDialog
 Version:	0.11
 Release:	1
@@ -24,8 +24,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Tk::FontDialog implements a font dialog widget.
 
-%description -l pl
-Modu≥ Tk::FontDialog jest implementacj± okienka wyboru fontu.
+%description -l pl.UTF-8
+Modu≈Ç Tk::FontDialog jest implementacjƒÖ okienka wyboru fontu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
