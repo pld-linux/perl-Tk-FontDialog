@@ -4,7 +4,6 @@
 
 %define		pdir	Tk
 %define		pnam	FontDialog
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tk::FontDialog Perl module - font chooser for Perl/Tk
 Summary(pl.UTF-8):	Moduł Perla Tk::FontDialog - okienko wyboru fontu dla modułu Perla Tk
 Name:		perl-Tk-FontDialog
